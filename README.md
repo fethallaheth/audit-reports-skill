@@ -14,16 +14,28 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 ## Installation
 
-### Option 1: Clone and Copy (Recommended)
+### Option 1: CLI Install (Recommended)
+
+Use add-skill to install skills directly:
+
+```bash
+# Install the skill
+npx skills add fethallaheth/audit-reports-skill
+```
+
+This automatically installs to your .claude/skills/ directory.
+
+
+### Option 2: Clone and Copy
 
 Clone the repo and copy to your skills directory:
 
 ```bash
-git clone https://github.com/yourusername/audit-reports.git
+git clone https://github.com/fethallaheth/audit-reports-skill.git
 cp -r audit-reports ~/.config/claude-code/skills/
 ```
 
-### Option 2: Direct Copy
+### Option 3: Direct Copy
 
 Copy the skill folder directly:
 
